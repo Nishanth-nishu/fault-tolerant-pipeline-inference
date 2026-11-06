@@ -18,9 +18,10 @@ in `results/`. Figures are in `docs/figures/`.
    (rebuild only the failed stage) roughly halves replay time when stage 0 fails and sends no bytes over the
    inter-stage link.
 3. **On one shared-memory host, pipelining does not beat a batched single process.** Measured: each stage
-   runs at 8.7 ms/step alone but 12.5–13.7 ms when both run at once on *disjoint* pinned cores. Decode
-   streams fp32 weights (113 MB per stage + a 154 MB LM head ≫ 24 MB L3), so the two stages share one
-   memory bus. The batched baseline reaches 1.3–1.8× the pipeline's throughput at C ≥ 2. With batching
+   runs at 8.7 ms/step alone but 12.5–13.7 ms when both run at once on *disjoint* pinned cores. With the
+   split at layer 8, every decode step streams ≈ 227 MB of fp32 weights through stage 0 (8 layers × 28.3 MB)
+   and ≈ 267 MB through stage 1 (4 layers + the 154 MB LM head), all ≫ 24 MB L3. That is ≈ 26–31 GB/s per
+   stage, so the two stages compete for one memory bus. The batched baseline reaches 1.3–1.8× the pipeline's throughput at C ≥ 2. With batching
    disabled, true pipelining *does* help: depth-2 overlap is 1.08–1.23× the unbatched baseline at C = 2–8
    with 16-token prompts.
 4. **Where pipelining clearly helps is when the link is slow, and that is where its design knobs matter.**
