@@ -1,0 +1,8 @@
+model,config,codec,acc,n
+Qwen/Qwen2.5-0.5B,hf-reference,-,0.518,500
+Qwen/Qwen2.5-0.5B,split,fp32,0.518,500
+Qwen/Qwen2.5-0.5B,split,fp16,0.518,500
+Qwen/Qwen2.5-0.5B,split,bf16,0.52,500
+Qwen/Qwen2.5-0.5B,split,int8,0.52,500
+Qwen/Qwen2.5-0.5B,split,int8h,0.524,500
+Qwen/Qwen2.5-0.5B,split,int4h,0.514,500

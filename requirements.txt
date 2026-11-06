@@ -1,0 +1,12 @@
+torch>=2.5
+transformers>=4.45
+grpcio>=1.66
+grpcio-tools>=1.66
+protobuf>=5
+numpy
+pandas
+matplotlib
+datasets
+psutil
+pytest
+pytest-timeout

@@ -1,0 +1,8 @@
+model,config,codec,acc,n
+gpt2,hf-reference,-,0.317,1000
+gpt2,split,fp32,0.317,1000
+gpt2,split,fp16,0.317,1000
+gpt2,split,bf16,0.317,1000
+gpt2,split,int8,0.319,1000
+gpt2,split,int8h,0.317,1000
+gpt2,split,int4h,0.316,1000

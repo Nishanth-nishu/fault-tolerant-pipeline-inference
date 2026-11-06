@@ -1,0 +1,7 @@
+model,codec,n_prompts,new_tokens,exact_match_rate,mean_prefix_agreement,token_agreement
+Qwen/Qwen2.5-0.5B,fp32,32,32,1.0,1.0,1.0
+Qwen/Qwen2.5-0.5B,fp16,32,32,1.0,1.0,1.0
+Qwen/Qwen2.5-0.5B,bf16,32,32,0.96875,0.99609375,0.9970703125
+Qwen/Qwen2.5-0.5B,int8,32,32,0.25,0.451171875,0.51171875
+Qwen/Qwen2.5-0.5B,int8h,32,32,0.9375,0.9599609375,0.9638671875
+Qwen/Qwen2.5-0.5B,int4h,32,32,0.15625,0.4150390625,0.4423828125

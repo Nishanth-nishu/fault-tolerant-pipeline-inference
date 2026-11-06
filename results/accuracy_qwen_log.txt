@@ -1,0 +1,49 @@
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  13%|#3        | 39/290 [00:00<00:00, 318.87it/s]Loading weights:  29%|##8       | 84/290 [00:00<00:00, 357.24it/s]Loading weights:  42%|####1     | 121/290 [00:00<00:00, 361.45it/s]Loading weights:  54%|#####4    | 158/290 [00:00<00:00, 362.84it/s]Loading weights:  67%|######7   | 195/290 [00:00<00:00, 358.86it/s]Loading weights:  80%|########  | 233/290 [00:00<00:00, 362.09it/s]Loading weights:  93%|#########3| 270/290 [00:00<00:00, 349.27it/s]Loading weights: 100%|##########| 290/290 [00:00<00:00, 361.63it/s]
+Using the latest cached version of the dataset since Salesforce/wikitext couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'wikitext-2-raw-v1' at C:\Users\HP\.cache\huggingface\datasets\Salesforce___wikitext\wikitext-2-raw-v1\0.0.0\b08601e04326c79dfdd32d625aee71d232d685c3 (last modified on Fri Nov  6 03:14:05 2026).
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (299078 > 131072). Running this sequence through the model will result in indexing errors
+[Qwen2.5-0.5B] wikitext2 ppl codec=fp32: 16.9895 (hf 16.9895)  256s
+[Qwen2.5-0.5B] wikitext2 ppl codec=fp16: 16.9894 (hf 16.9895)  364s
+[Qwen2.5-0.5B] wikitext2 ppl codec=bf16: 16.9897 (hf 16.9895)  513s
+[Qwen2.5-0.5B] wikitext2 ppl codec=int8: 17.3098 (hf 16.9895)  689s
+[Qwen2.5-0.5B] wikitext2 ppl codec=int8h: 16.9892 (hf 16.9895)  861s
+[Qwen2.5-0.5B] wikitext2 ppl codec=int4h: 17.3257 (hf 16.9895)  1055s
+Using the latest cached version of the dataset since EleutherAI/lambada_openai couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\HP\.cache\huggingface\datasets\EleutherAI___lambada_openai\default\0.0.0\900124bf3b8235c6daf21033af9948b3f07346c4 (last modified on Fri Nov  6 03:14:11 2026).
+Using the latest cached version of the dataset since EleutherAI/lambada_openai couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\HP\.cache\huggingface\datasets\EleutherAI___lambada_openai\default\0.0.0\900124bf3b8235c6daf21033af9948b3f07346c4 (last modified on Fri Nov  6 03:14:11 2026).
+[Qwen2.5-0.5B] lambada acc codec=fp32: 0.5180 (hf 0.5180)
+Using the latest cached version of the dataset since EleutherAI/lambada_openai couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\HP\.cache\huggingface\datasets\EleutherAI___lambada_openai\default\0.0.0\900124bf3b8235c6daf21033af9948b3f07346c4 (last modified on Fri Nov  6 03:14:11 2026).
+[Qwen2.5-0.5B] lambada acc codec=fp16: 0.5180 (hf 0.5180)
+Using the latest cached version of the dataset since EleutherAI/lambada_openai couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\HP\.cache\huggingface\datasets\EleutherAI___lambada_openai\default\0.0.0\900124bf3b8235c6daf21033af9948b3f07346c4 (last modified on Fri Nov  6 03:14:11 2026).
+[Qwen2.5-0.5B] lambada acc codec=bf16: 0.5200 (hf 0.5180)
+Using the latest cached version of the dataset since EleutherAI/lambada_openai couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\HP\.cache\huggingface\datasets\EleutherAI___lambada_openai\default\0.0.0\900124bf3b8235c6daf21033af9948b3f07346c4 (last modified on Fri Nov  6 03:14:11 2026).
+[Qwen2.5-0.5B] lambada acc codec=int8: 0.5200 (hf 0.5180)
+Using the latest cached version of the dataset since EleutherAI/lambada_openai couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\HP\.cache\huggingface\datasets\EleutherAI___lambada_openai\default\0.0.0\900124bf3b8235c6daf21033af9948b3f07346c4 (last modified on Fri Nov  6 03:14:11 2026).
+[Qwen2.5-0.5B] lambada acc codec=int8h: 0.5240 (hf 0.5180)
+Using the latest cached version of the dataset since EleutherAI/lambada_openai couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\HP\.cache\huggingface\datasets\EleutherAI___lambada_openai\default\0.0.0\900124bf3b8235c6daf21033af9948b3f07346c4 (last modified on Fri Nov  6 03:14:11 2026).
+[Qwen2.5-0.5B] lambada acc codec=int4h: 0.5140 (hf 0.5180)
+Using the latest cached version of the dataset since Salesforce/wikitext couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'wikitext-2-raw-v1' at C:\Users\HP\.cache\huggingface\datasets\Salesforce___wikitext\wikitext-2-raw-v1\0.0.0\b08601e04326c79dfdd32d625aee71d232d685c3 (last modified on Fri Nov  6 03:14:05 2026).
+[Qwen2.5-0.5B] greedy codec=fp32: exact=32/32 prefix=1.000
+[Qwen2.5-0.5B] greedy codec=fp16: exact=32/32 prefix=1.000
+[Qwen2.5-0.5B] greedy codec=bf16: exact=31/32 prefix=0.996
+[Qwen2.5-0.5B] greedy codec=int8: exact=8/32 prefix=0.451
+[Qwen2.5-0.5B] greedy codec=int8h: exact=30/32 prefix=0.960
+[Qwen2.5-0.5B] greedy codec=int4h: exact=5/32 prefix=0.415
+[Qwen2.5-0.5B] sweep split=1 outlier=17.8 bf16:-0.00% int8:+0.04% int8h:-0.01% int4h:+0.46%
+[Qwen2.5-0.5B] sweep split=2 outlier=18.4 bf16:+0.01% int8:+0.03% int8h:-0.00% int4h:+0.33%
+[Qwen2.5-0.5B] sweep split=3 outlier=638.1 bf16:+0.00% int8:+0.39% int8h:-0.04% int4h:+1.01%
+[Qwen2.5-0.5B] sweep split=4 outlier=660.4 bf16:-0.01% int8:+2.20% int8h:+0.05% int4h:+1.68%
+[Qwen2.5-0.5B] sweep split=8 outlier=655.1 bf16:-0.00% int8:+2.19% int8h:+0.01% int4h:+1.98%
+[Qwen2.5-0.5B] sweep split=12 outlier=652.6 bf16:-0.01% int8:+1.46% int8h:+0.07% int4h:+1.59%
+[Qwen2.5-0.5B] sweep split=16 outlier=641.4 bf16:-0.01% int8:+1.23% int8h:+0.08% int4h:+1.46%
+[Qwen2.5-0.5B] sweep split=20 outlier=580.6 bf16:+0.01% int8:+1.26% int8h:-0.01% int4h:+1.79%
+[Qwen2.5-0.5B] sweep split=22 outlier=27.7 bf16:-0.00% int8:+0.48% int8h:+0.02% int4h:+1.11%
+[Qwen2.5-0.5B] sweep split=23 outlier=26.2 bf16:+0.01% int8:+0.42% int8h:-0.01% int4h:+1.64%
+exit 0

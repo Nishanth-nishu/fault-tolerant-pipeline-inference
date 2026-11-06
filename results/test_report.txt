@@ -1,0 +1,45 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\HP\AppData\Local\Programs\Python\Python311\python.exe
+rootdir: C:\Users\HP\Desktop\github-project-for-JD\SDE
+configfile: pytest.ini
+testpaths: tests
+plugins: anyio-4.14.2, platformdirs-4.12.4, timeout-2.4.0
+timeout: 400.0s
+timeout method: thread
+timeout func_only: False
+collecting ... collected 31 items
+
+tests/test_distributed.py::test_matches_reference_concurrent PASSED      [  3%]
+tests/test_distributed.py::test_no_batching_chunked_prefill PASSED       [  6%]
+tests/test_distributed.py::test_compressed_link_runs[bf16] PASSED        [  9%]
+tests/test_distributed.py::test_compressed_link_runs[int8h] PASSED       [ 12%]
+tests/test_distributed.py::test_stale_epoch_rejected_by_worker PASSED    [ 16%]
+tests/test_distributed.py::test_stale_reply_rejected_by_coordinator PASSED [ 19%]
+tests/test_distributed.py::test_admission_overload_is_explicit PASSED    [ 22%]
+tests/test_distributed.py::test_worker_backpressure_and_lost_replies PASSED [ 25%]
+tests/test_distributed.py::test_worker_kill_recovery[full-stages0] PASSED [ 29%]
+tests/test_distributed.py::test_worker_kill_recovery[full-stages1] PASSED [ 32%]
+tests/test_distributed.py::test_worker_kill_recovery[full-stages2] PASSED [ 35%]
+tests/test_distributed.py::test_worker_kill_recovery[targeted-stages3] PASSED [ 38%]
+tests/test_distributed.py::test_worker_kill_recovery[targeted-stages4] PASSED [ 41%]
+tests/test_distributed.py::test_worker_kill_recovery[targeted-stages5] PASSED [ 45%]
+tests/test_distributed.py::test_timeout_fails_explicitly PASSED          [ 48%]
+tests/test_distributed.py::test_head_on_first_ring_exact_with_kill PASSED [ 51%]
+tests/test_model.py::test_split_matches_hf_all_splits[gpt2] PASSED       [ 54%]
+tests/test_model.py::test_split_matches_hf_all_splits[Qwen/Qwen2.5-0.5B] PASSED [ 58%]
+tests/test_model.py::test_chunked_prefill_decode_and_mixed_batch PASSED  [ 61%]
+tests/test_model.py::test_retry_is_idempotent PASSED                     [ 64%]
+tests/test_model.py::test_cache_miss_detected PASSED                     [ 67%]
+tests/test_model.py::test_codec_roundtrip[fp32-0] PASSED                 [ 70%]
+tests/test_model.py::test_codec_roundtrip[fp16-0.001] PASSED             [ 74%]
+tests/test_model.py::test_codec_roundtrip[bf16-0.01] PASSED              [ 77%]
+tests/test_model.py::test_codec_roundtrip[int8-0.5] PASSED               [ 80%]
+tests/test_model.py::test_codec_roundtrip[int8h-0.02] PASSED             [ 83%]
+tests/test_model.py::test_codec_roundtrip[int4h-0.2] PASSED              [ 87%]
+tests/test_model.py::test_hadamard_rotation_tames_outliers PASSED        [ 90%]
+tests/test_model.py::test_fp16_overflow_guard PASSED                     [ 93%]
+tests/test_model.py::test_head_on_first_matches_hf[gpt2] PASSED          [ 96%]
+tests/test_model.py::test_head_on_first_matches_hf[Qwen/Qwen2.5-0.5B] PASSED [100%]
+
+======================= 31 passed in 199.91s (0:03:19) ========================
+exit 0

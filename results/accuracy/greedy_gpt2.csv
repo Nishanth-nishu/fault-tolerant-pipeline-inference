@@ -1,0 +1,7 @@
+model,codec,n_prompts,new_tokens,exact_match_rate,mean_prefix_agreement,token_agreement
+gpt2,fp32,64,32,1.0,1.0,1.0
+gpt2,fp16,64,32,1.0,1.0,1.0
+gpt2,bf16,64,32,0.984375,0.99609375,0.99658203125
+gpt2,int8,64,32,0.5,0.6533203125,0.7001953125
+gpt2,int8h,64,32,0.84375,0.90478515625,0.91162109375
+gpt2,int4h,64,32,0.296875,0.513671875,0.58642578125

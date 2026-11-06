@@ -1,0 +1,111 @@
+syntax = "proto3";
+
+package pllm;
+
+// Serialized activation / logits tensor. `codec` names the wire encoding (see pllm/codec.py).
+message Tensor {
+  repeated int64 shape = 1;
+  string codec = 2;   // fp32 | fp16 | bf16 | int8 | int8h | int4h | i64 (token ids)
+  bytes data = 3;
+  bytes scales = 4;   // quantization scales (fp16), empty for float codecs
+}
+
+// One sequence's slice of a flattened micro-batch.
+message SeqItem {
+  string request_id = 1;
+  int64 op_seq = 2;          // per-request monotonically increasing operation number (ordering / staleness)
+  int64 cache_position = 3;  // absolute position of the first token of this slice
+  int32 num_tokens = 4;
+  bool want_logits = 5;      // return next-token scores for the last position of this slice
+  bool replay = 6;           // recovery replay (outputs suppressed by coordinator)
+}
+
+message ForwardRequest {
+  string batch_id = 1;
+  repeated SeqItem items = 2;
+  Tensor payload = 3;                    // token ids (stage 0) or hidden states (stage > 0)
+  map<string, int64> expected_epochs = 4;  // stage name ("s0","s1") -> epoch the sender believes is live
+  bool forward_downstream = 5;           // stage 0: forward result to the next stage (false = local replay only)
+  string act_codec = 6;                  // codec for the inter-stage activation link
+  int32 logits_topk = 7;                 // 0 = full vocabulary row; k>0 = top-k (values, indices)
+  double deadline_ms = 8;                // remaining budget for downstream hop
+}
+
+enum Status {
+  OK = 0;
+  STALE_EPOCH = 1;        // sender's view of an epoch does not match the live worker
+  OVERLOADED = 2;         // bounded queue full: explicit backpressure, retry later
+  DOWNSTREAM_FAILED = 3;  // stage 0 could not reach stage 1
+  CACHE_MISS = 4;         // KV state needed for this step is absent (e.g. worker restarted)
+  BAD_REQUEST = 5;
+  INTERNAL = 6;
+}
+
+message SeqResult {
+  string request_id = 1;
+  int64 op_seq = 2;
+  Tensor scores = 3;        // fp32 logits row, or top-k values
+  repeated int64 topk_ids = 4;
+}
+
+message StageStat {
+  string stage = 1;
+  int64 epoch = 2;
+  double queue_ms = 3;
+  double compute_ms = 4;
+  double codec_ms = 5;
+  int64 act_bytes_out = 6;  // serialized activation payload bytes sent downstream
+  int64 msg_bytes_out = 7;  // full serialized downstream request (payload + control)
+  double handler_ms = 8;    // wall time inside this stage's Forward handler (incl. downstream call)
+  double downstream_ms = 9; // wall time of the downstream RPC as seen by this stage
+}
+
+message ForwardReply {
+  Status status = 1;
+  string message = 2;
+  string failed_stage = 3;
+  repeated SeqResult results = 4;
+  repeated StageStat stats = 5;
+  map<string, int64> epochs = 6;
+  Tensor hidden_out = 7;    // head-on-first mode: last stage returns final hidden rows (one per want_logits item)
+}
+
+message ReleaseRequest {
+  repeated string request_ids = 1;
+  bool all = 2;
+  bool downstream = 3;
+}
+
+message ReplayRequest {               // targeted recovery: stage 0 resends logged boundary activations
+  string request_id = 1;
+  int64 upto_position = 2;            // replay positions [0, upto_position)
+  map<string, int64> expected_epochs = 3;
+  string act_codec = 4;
+}
+
+message Ack {
+  Status status = 1;
+  string message = 2;
+  int64 value = 3;
+}
+
+message HealthRequest {}
+
+message HealthReply {
+  string stage = 1;
+  int64 epoch = 2;
+  int32 queue_depth = 3;
+  int32 active_sequences = 4;
+  int64 cache_bytes = 5;
+  int32 layer_start = 6;
+  int32 layer_end = 7;
+  string model = 8;
+  int64 pid = 9;
+}
+
+service StageService {
+  rpc Forward(ForwardRequest) returns (ForwardReply);
+  rpc Release(ReleaseRequest) returns (Ack);
+  rpc ReplayBoundary(ReplayRequest) returns (Ack);
+  rpc Health(HealthRequest) returns (HealthReply);
+}

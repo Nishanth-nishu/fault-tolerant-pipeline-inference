@@ -1,0 +1,91 @@
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights:  91%|#########1| 135/148 [00:00<00:00, 1310.36it/s]Loading weights: 100%|##########| 148/148 [00:00<00:00, 504.17it/s] 
+Using the latest cached version of the dataset since Salesforce/wikitext couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'wikitext-2-raw-v1' at C:\Users\HP\.cache\huggingface\datasets\Salesforce___wikitext\wikitext-2-raw-v1\0.0.0\b08601e04326c79dfdd32d625aee71d232d685c3 (last modified on Fri Nov  6 03:14:05 2026).
+[kill] spare=False full     kill=s0    t=0 exact=4/4 failed=0 dup=0 detect=59ms restart=8587ms replay=148.0ms ttnt_max=9000ms paths=full
+[kill] spare=False full     kill=s0    t=1 exact=4/4 failed=0 dup=0 detect=47ms restart=8669ms replay=134.2ms ttnt_max=9073ms paths=full
+[kill] spare=False full     kill=s0    t=2 exact=4/4 failed=0 dup=0 detect=48ms restart=13270ms replay=218.9ms ttnt_max=13787ms paths=full
+[kill] spare=False full     kill=s0    t=3 exact=4/4 failed=0 dup=0 detect=43ms restart=14710ms replay=227.8ms ttnt_max=15244ms paths=full
+[kill] spare=False full     kill=s0    t=4 exact=4/4 failed=0 dup=0 detect=49ms restart=14323ms replay=254.5ms ttnt_max=14909ms paths=full
+[kill] spare=False full     kill=s1    t=0 exact=4/4 failed=0 dup=0 detect=58ms restart=14709ms replay=231.9ms ttnt_max=15371ms paths=error,full
+[kill] spare=False full     kill=s1    t=1 exact=4/4 failed=0 dup=0 detect=50ms restart=14320ms replay=131.9ms ttnt_max=14725ms paths=full
+[kill] spare=False full     kill=s1    t=2 exact=4/4 failed=0 dup=0 detect=53ms restart=9220ms replay=114.0ms ttnt_max=10089ms paths=error,full
+[kill] spare=False full     kill=s1    t=3 exact=4/4 failed=0 dup=0 detect=64ms restart=8587ms replay=106.6ms ttnt_max=9480ms paths=error,full
+[kill] spare=False full     kill=s1    t=4 exact=4/4 failed=0 dup=0 detect=51ms restart=8617ms replay=100.3ms ttnt_max=9488ms paths=error,full
+[kill] spare=False full     kill=s0+s1 t=0 exact=4/4 failed=0 dup=0 detect=101ms restart=17602ms replay=150.7ms ttnt_max=18205ms paths=full
+[kill] spare=False full     kill=s0+s1 t=1 exact=4/4 failed=0 dup=0 detect=99ms restart=17015ms replay=125.9ms ttnt_max=17547ms paths=full
+[kill] spare=False full     kill=s0+s1 t=2 exact=4/4 failed=0 dup=0 detect=102ms restart=17203ms replay=144.8ms ttnt_max=17784ms paths=full
+[kill] spare=False full     kill=s0+s1 t=3 exact=4/4 failed=0 dup=0 detect=101ms restart=17748ms replay=170.3ms ttnt_max=18355ms paths=full
+[kill] spare=False full     kill=s0+s1 t=4 exact=4/4 failed=0 dup=0 detect=114ms restart=18785ms replay=131.7ms ttnt_max=19366ms paths=full
+[kill] spare=False targeted kill=s0    t=0 exact=4/4 failed=0 dup=0 detect=48ms restart=8471ms replay=70.3ms ttnt_max=8799ms paths=s0-local
+[kill] spare=False targeted kill=s0    t=1 exact=4/4 failed=0 dup=0 detect=45ms restart=8548ms replay=75.8ms ttnt_max=8884ms paths=s0-local
+[kill] spare=False targeted kill=s0    t=2 exact=4/4 failed=0 dup=0 detect=45ms restart=8353ms replay=67.2ms ttnt_max=8694ms paths=s0-local
+[kill] spare=False targeted kill=s0    t=3 exact=4/4 failed=0 dup=0 detect=45ms restart=8666ms replay=76.8ms ttnt_max=9002ms paths=s0-local
+[kill] spare=False targeted kill=s0    t=4 exact=4/4 failed=0 dup=0 detect=51ms restart=8734ms replay=64.3ms ttnt_max=9066ms paths=s0-local
+[kill] spare=False targeted kill=s1    t=0 exact=4/4 failed=0 dup=0 detect=44ms restart=8845ms replay=86.8ms ttnt_max=9202ms paths=s1-from-log
+[kill] spare=False targeted kill=s1    t=1 exact=4/4 failed=0 dup=0 detect=59ms restart=8936ms replay=43.6ms ttnt_max=9734ms paths=error,s1-from-log
+[kill] spare=False targeted kill=s1    t=2 exact=4/4 failed=0 dup=0 detect=70ms restart=9151ms replay=88.1ms ttnt_max=9513ms paths=s1-from-log
+[kill] spare=False targeted kill=s1    t=3 exact=4/4 failed=0 dup=0 detect=60ms restart=8916ms replay=56.1ms ttnt_max=9751ms paths=error,s1-from-log
+[kill] spare=False targeted kill=s1    t=4 exact=4/4 failed=0 dup=0 detect=66ms restart=9196ms replay=91.9ms ttnt_max=9589ms paths=s1-from-log
+[kill] spare=False targeted kill=s0+s1 t=0 exact=4/4 failed=0 dup=0 detect=110ms restart=18084ms replay=209.5ms ttnt_max=18738ms paths=full
+[kill] spare=False targeted kill=s0+s1 t=1 exact=4/4 failed=0 dup=0 detect=123ms restart=18735ms replay=222.7ms ttnt_max=19455ms paths=full
+[kill] spare=False targeted kill=s0+s1 t=2 exact=4/4 failed=0 dup=0 detect=125ms restart=21733ms replay=262.9ms ttnt_max=22492ms paths=full
+[kill] spare=False targeted kill=s0+s1 t=3 exact=4/4 failed=0 dup=0 detect=155ms restart=20718ms replay=227.9ms ttnt_max=21467ms paths=full
+[kill] spare=False targeted kill=s0+s1 t=4 exact=4/4 failed=0 dup=0 detect=125ms restart=17813ms replay=194.5ms ttnt_max=18469ms paths=full
+[kill] spare=True  full     kill=s0    t=0 exact=4/4 failed=0 dup=0 detect=54ms restart=115ms replay=179.5ms ttnt_max=602ms paths=full
+[kill] spare=True  full     kill=s0    t=1 exact=4/4 failed=0 dup=0 detect=73ms restart=116ms replay=174.5ms ttnt_max=615ms paths=full
+[kill] spare=True  full     kill=s0    t=2 exact=4/4 failed=0 dup=0 detect=73ms restart=116ms replay=163.0ms ttnt_max=606ms paths=full
+[kill] spare=True  full     kill=s0    t=3 exact=4/4 failed=0 dup=0 detect=73ms restart=117ms replay=159.0ms ttnt_max=622ms paths=full
+[kill] spare=True  full     kill=s0    t=4 exact=4/4 failed=0 dup=0 detect=55ms restart=116ms replay=166.8ms ttnt_max=584ms paths=full
+[kill] spare=True  full     kill=s1    t=0 exact=4/4 failed=0 dup=0 detect=47ms restart=118ms replay=188.3ms ttnt_max=618ms paths=full
+[kill] spare=True  full     kill=s1    t=1 exact=4/4 failed=0 dup=0 detect=59ms restart=116ms replay=160.5ms ttnt_max=600ms paths=full
+[kill] spare=True  full     kill=s1    t=2 exact=4/4 failed=0 dup=0 detect=66ms restart=117ms replay=162.5ms ttnt_max=619ms paths=full
+[kill] spare=True  full     kill=s1    t=3 exact=4/4 failed=0 dup=0 detect=74ms restart=221ms replay=182.6ms ttnt_max=753ms paths=full
+[kill] spare=True  full     kill=s1    t=4 exact=4/4 failed=0 dup=0 detect=59ms restart=118ms replay=138.3ms ttnt_max=561ms paths=full
+[kill] spare=True  full     kill=s0+s1 t=0 exact=4/4 failed=0 dup=0 detect=103ms restart=512ms replay=221.8ms ttnt_max=1198ms paths=full
+[kill] spare=True  full     kill=s0+s1 t=1 exact=4/4 failed=0 dup=0 detect=84ms restart=320ms replay=289.7ms ttnt_max=1156ms paths=full
+[kill] spare=True  full     kill=s0+s1 t=2 exact=4/4 failed=0 dup=0 detect=127ms restart=571ms replay=301.5ms ttnt_max=1466ms paths=full
+[kill] spare=True  full     kill=s0+s1 t=3 exact=4/4 failed=0 dup=0 detect=145ms restart=255ms replay=313.6ms ttnt_max=1189ms paths=full
+[kill] spare=True  full     kill=s0+s1 t=4 exact=4/4 failed=0 dup=0 detect=127ms restart=296ms replay=358.8ms ttnt_max=1267ms paths=full
+[kill] spare=True  targeted kill=s0    t=0 exact=4/4 failed=0 dup=0 detect=61ms restart=119ms replay=175.3ms ttnt_max=715ms paths=s0-local
+[kill] spare=True  targeted kill=s0    t=1 exact=4/4 failed=0 dup=0 detect=71ms restart=116ms replay=107.1ms ttnt_max=582ms paths=s0-local
+[kill] spare=True  targeted kill=s0    t=2 exact=4/4 failed=0 dup=0 detect=76ms restart=117ms replay=101.6ms ttnt_max=559ms paths=s0-local
+[kill] spare=True  targeted kill=s0    t=3 exact=4/4 failed=0 dup=0 detect=75ms restart=117ms replay=138.4ms ttnt_max=642ms paths=s0-local
+[kill] spare=True  targeted kill=s0    t=4 exact=4/4 failed=0 dup=0 detect=77ms restart=117ms replay=115.1ms ttnt_max=562ms paths=s0-local
+[kill] spare=True  targeted kill=s1    t=0 exact=4/4 failed=0 dup=0 detect=50ms restart=221ms replay=232.1ms ttnt_max=887ms paths=s1-from-log
+[kill] spare=True  targeted kill=s1    t=1 exact=4/4 failed=0 dup=0 detect=65ms restart=117ms replay=120.3ms ttnt_max=560ms paths=s1-from-log
+[kill] spare=True  targeted kill=s1    t=2 exact=4/4 failed=0 dup=0 detect=72ms restart=110ms replay=109.3ms ttnt_max=537ms paths=s1-from-log
+[kill] spare=True  targeted kill=s1    t=3 exact=4/4 failed=0 dup=0 detect=56ms restart=104ms replay=83.0ms ttnt_max=487ms paths=s1-from-log
+[kill] spare=True  targeted kill=s1    t=4 exact=4/4 failed=0 dup=0 detect=73ms restart=237ms replay=162.7ms ttnt_max=788ms paths=s1-from-log
+[kill] spare=True  targeted kill=s0+s1 t=0 exact=4/4 failed=0 dup=0 detect=96ms restart=578ms replay=415.3ms ttnt_max=1531ms paths=full
+[kill] spare=True  targeted kill=s0+s1 t=1 exact=4/4 failed=0 dup=0 detect=89ms restart=548ms replay=267.4ms ttnt_max=1361ms paths=full
+[kill] spare=True  targeted kill=s0+s1 t=2 exact=4/4 failed=0 dup=0 detect=110ms restart=619ms replay=273.8ms ttnt_max=1453ms paths=full
+[kill] spare=True  targeted kill=s0+s1 t=3 exact=4/4 failed=0 dup=0 detect=110ms restart=515ms replay=270.0ms ttnt_max=1294ms paths=full
+[kill] spare=True  targeted kill=s0+s1 t=4 exact=4/4 failed=0 dup=0 detect=119ms restart=576ms replay=181.8ms ttnt_max=1288ms paths=full
+Using the latest cached version of the dataset since Salesforce/wikitext couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'wikitext-2-raw-v1' at C:\Users\HP\.cache\huggingface\datasets\Salesforce___wikitext\wikitext-2-raw-v1\0.0.0\b08601e04326c79dfdd32d625aee71d232d685c3 (last modified on Fri Nov  6 03:14:05 2026).
+[lossy] p=0.0 t=0 exact=4/4 failed=0 retries=0 tok/s=93.7
+[lossy] p=0.0 t=1 exact=4/4 failed=0 retries=0 tok/s=96.8
+[lossy] p=0.0 t=2 exact=4/4 failed=0 retries=0 tok/s=96.4
+[lossy] p=0.0 t=3 exact=4/4 failed=0 retries=0 tok/s=91.3
+[lossy] p=0.0 t=4 exact=4/4 failed=0 retries=0 tok/s=94.6
+[lossy] p=0.01 t=0 exact=4/4 failed=0 retries=2 tok/s=99.0
+[lossy] p=0.01 t=1 exact=4/4 failed=0 retries=0 tok/s=101.4
+[lossy] p=0.01 t=2 exact=4/4 failed=0 retries=2 tok/s=97.3
+[lossy] p=0.01 t=3 exact=4/4 failed=0 retries=2 tok/s=93.4
+[lossy] p=0.01 t=4 exact=4/4 failed=0 retries=4 tok/s=90.7
+[lossy] p=0.05 t=0 exact=4/4 failed=0 retries=4 tok/s=87.8
+[lossy] p=0.05 t=1 exact=4/4 failed=0 retries=10 tok/s=91.2
+[lossy] p=0.05 t=2 exact=4/4 failed=0 retries=10 tok/s=82.5
+[lossy] p=0.05 t=3 exact=4/4 failed=0 retries=11 tok/s=83.4
+[lossy] p=0.05 t=4 exact=4/4 failed=0 retries=6 tok/s=88.3
+[lossy] p=0.1 t=0 exact=4/4 failed=0 retries=6 tok/s=90.3
+[lossy] p=0.1 t=1 exact=4/4 failed=0 retries=14 tok/s=88.5
+[lossy] p=0.1 t=2 exact=4/4 failed=0 retries=12 tok/s=91.8
+[lossy] p=0.1 t=3 exact=4/4 failed=0 retries=19 tok/s=85.1
+[lossy] p=0.1 t=4 exact=4/4 failed=0 retries=16 tok/s=75.4
+[lossy] p=0.2 t=0 exact=4/4 failed=0 retries=14 tok/s=91.1
+[lossy] p=0.2 t=1 exact=4/4 failed=0 retries=38 tok/s=80.1
+[lossy] p=0.2 t=2 exact=4/4 failed=0 retries=24 tok/s=85.3
+[lossy] p=0.2 t=3 exact=4/4 failed=0 retries=36 tok/s=79.8
+[lossy] p=0.2 t=4 exact=4/4 failed=0 retries=32 tok/s=85.3
+exit 0

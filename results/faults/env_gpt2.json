@@ -1,0 +1,39 @@
+{
+  "python": "3.11.9",
+  "os": "Windows-10-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 191 Stepping 2, GenuineIntel",
+  "logical_cpus": 20,
+  "torch": "2.14.0+cpu",
+  "transformers": "5.19.0",
+  "grpcio": "1.85.1",
+  "device": "cpu",
+  "precision": "fp32 weights / fp32 compute",
+  "placement": "both workers + coordinator on one host, loopback TCP",
+  "time_utc": "2026-11-06T00:25:33Z",
+  "ram_gb": 16.8,
+  "physical_cpus": 14,
+  "model": "gpt2",
+  "args": {
+    "model": "gpt2",
+    "exp": [
+      "kill",
+      "lossy"
+    ],
+    "trials": 5,
+    "concurrency": 4,
+    "prompt_len": 64,
+    "gen": 32,
+    "threads": 8,
+    "rpc_timeout": 5.0,
+    "drop_probs": [
+      0.0,
+      0.01,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "seed": 0,
+    "port": 50251,
+    "out": "results/faults"
+  }
+}

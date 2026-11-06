@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+scratch_logs/
+.pytest_cache/

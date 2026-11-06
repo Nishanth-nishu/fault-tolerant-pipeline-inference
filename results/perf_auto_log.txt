@@ -1,0 +1,172 @@
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights:  10%|#         | 15/148 [00:00<00:01, 123.56it/s]Loading weights:  24%|##4       | 36/148 [00:00<00:00, 170.11it/s]Loading weights:  37%|###7      | 55/148 [00:00<00:00, 109.07it/s]Loading weights: 100%|##########| 148/148 [00:00<00:00, 312.89it/s]
+Using the latest cached version of the dataset since Salesforce/wikitext couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'wikitext-2-raw-v1' at C:\Users\HP\.cache\huggingface\datasets\Salesforce___wikitext\wikitext-2-raw-v1\0.0.0\b08601e04326c79dfdd32d625aee71d232d685c3 (last modified on Fri Nov  6 03:14:05 2026).
+[net] delay=0.0ms bw=0.0Mbps pipe-d2-fp32    rep=0 tok/s=   93.0 ttft50=  136.2 tpot50=  36.2 act_B/tok=9120 cpu=32%
+[net] delay=0.0ms bw=0.0Mbps pipe-auto-fp32  rep=0 tok/s=  100.9 ttft50=  139.4 tpot50=  35.0 act_B/tok=9120 cpu=29%
+[net] delay=0.0ms bw=0.0Mbps pipe-d1-fp32    rep=0 tok/s=  108.2 ttft50=  187.7 tpot50=  31.5 act_B/tok=9120 cpu=28%
+[net] delay=0.0ms bw=0.0Mbps pipe-auto-fp32  rep=1 tok/s=  108.5 ttft50=  184.9 tpot50=  31.7 act_B/tok=9120 cpu=27%
+[net] delay=0.0ms bw=0.0Mbps pipe-d1-fp32    rep=1 tok/s=  109.0 ttft50=  186.6 tpot50=  31.5 act_B/tok=9120 cpu=27%
+[net] delay=0.0ms bw=0.0Mbps pipe-d2-fp32    rep=1 tok/s=   91.4 ttft50=  133.6 tpot50=  36.2 act_B/tok=9120 cpu=33%
+[net] delay=0.0ms bw=0.0Mbps pipe-d1-fp32    rep=2 tok/s=  109.3 ttft50=  182.6 tpot50=  31.6 act_B/tok=9120 cpu=28%
+[net] delay=0.0ms bw=0.0Mbps pipe-auto-fp32  rep=2 tok/s=  109.6 ttft50=  184.8 tpot50=  31.3 act_B/tok=9120 cpu=26%
+[net] delay=0.0ms bw=0.0Mbps pipe-d2-fp32    rep=2 tok/s=  100.0 ttft50=  131.2 tpot50=  36.1 act_B/tok=9120 cpu=31%
+[net] delay=0.0ms bw=0.0Mbps pipe-d1-fp32    rep=3 tok/s=  108.4 ttft50=  187.3 tpot50=  31.4 act_B/tok=9120 cpu=28%
+[net] delay=0.0ms bw=0.0Mbps pipe-auto-fp32  rep=3 tok/s=  104.3 ttft50=  183.2 tpot50=  31.9 act_B/tok=9120 cpu=28%
+[net] delay=0.0ms bw=0.0Mbps pipe-d2-fp32    rep=3 tok/s=  100.2 ttft50=  131.8 tpot50=  36.0 act_B/tok=9120 cpu=31%
+[net] delay=2.0ms bw=0.0Mbps pipe-d2-fp32    rep=0 tok/s=   89.9 ttft50=  134.3 tpot50=  36.8 act_B/tok=9120 cpu=29%
+[net] delay=2.0ms bw=0.0Mbps pipe-auto-fp32  rep=0 tok/s=   70.8 ttft50=  125.4 tpot50=  47.7 act_B/tok=9120 cpu=29%
+[net] delay=2.0ms bw=0.0Mbps pipe-d1-fp32    rep=0 tok/s=   62.5 ttft50=  204.2 tpot50=  63.0 act_B/tok=9120 cpu=25%
+[net] delay=2.0ms bw=0.0Mbps pipe-auto-fp32  rep=1 tok/s=   92.2 ttft50=  126.1 tpot50=  36.4 act_B/tok=9120 cpu=30%
+[net] delay=2.0ms bw=0.0Mbps pipe-d1-fp32    rep=1 tok/s=   59.7 ttft50=  241.8 tpot50=  62.9 act_B/tok=9120 cpu=24%
+[net] delay=2.0ms bw=0.0Mbps pipe-d2-fp32    rep=1 tok/s=   86.9 ttft50=  151.9 tpot50=  40.1 act_B/tok=9120 cpu=32%
+[net] delay=2.0ms bw=0.0Mbps pipe-d1-fp32    rep=2 tok/s=   61.2 ttft50=  202.0 tpot50=  63.0 act_B/tok=9120 cpu=24%
+[net] delay=2.0ms bw=0.0Mbps pipe-auto-fp32  rep=2 tok/s=   71.8 ttft50=  126.5 tpot50=  48.0 act_B/tok=9120 cpu=27%
+[net] delay=2.0ms bw=0.0Mbps pipe-d2-fp32    rep=2 tok/s=   97.3 ttft50=  144.4 tpot50=  35.5 act_B/tok=9120 cpu=30%
+[net] delay=2.0ms bw=0.0Mbps pipe-d2-fp32    rep=3 tok/s=   85.6 ttft50=  152.7 tpot50=  46.6 act_B/tok=9120 cpu=29%
+[net] delay=2.0ms bw=0.0Mbps pipe-d1-fp32    rep=3 tok/s=   63.7 ttft50=  202.6 tpot50=  62.7 act_B/tok=9120 cpu=24%
+[net] delay=2.0ms bw=0.0Mbps pipe-auto-fp32  rep=3 tok/s=   89.6 ttft50=  197.0 tpot50=  36.3 act_B/tok=9120 cpu=29%
+[net] delay=5.0ms bw=20.0Mbps pipe-d1-fp32    rep=0 tok/s=   51.2 ttft50=  542.2 tpot50=  63.3 act_B/tok=9120 cpu=22%
+[net] delay=5.0ms bw=20.0Mbps pipe-d2-fp32    rep=0 tok/s=   81.4 ttft50=  300.3 tpot50=  37.0 act_B/tok=9120 cpu=28%
+[net] delay=5.0ms bw=20.0Mbps pipe-auto-fp32  rep=0 tok/s=   66.4 ttft50=  428.0 tpot50=  40.6 act_B/tok=9120 cpu=26%
+[net] delay=5.0ms bw=20.0Mbps pipe-auto-fp32  rep=1 tok/s=   80.0 ttft50=  306.7 tpot50=  37.1 act_B/tok=9120 cpu=29%
+[net] delay=5.0ms bw=20.0Mbps pipe-d1-fp32    rep=1 tok/s=   52.0 ttft50=  544.2 tpot50=  63.1 act_B/tok=9120 cpu=22%
+[net] delay=5.0ms bw=20.0Mbps pipe-d2-fp32    rep=1 tok/s=   75.2 ttft50=  309.2 tpot50=  37.8 act_B/tok=9120 cpu=28%
+[net] delay=5.0ms bw=20.0Mbps pipe-d2-fp32    rep=2 tok/s=   79.2 ttft50=  285.6 tpot50=  36.9 act_B/tok=9120 cpu=29%
+[net] delay=5.0ms bw=20.0Mbps pipe-d1-fp32    rep=2 tok/s=   52.3 ttft50=  543.9 tpot50=  62.7 act_B/tok=9120 cpu=22%
+[net] delay=5.0ms bw=20.0Mbps pipe-auto-fp32  rep=2 tok/s=   56.6 ttft50=  304.2 tpot50=  59.7 act_B/tok=9120 cpu=28%
+[net] delay=5.0ms bw=20.0Mbps pipe-auto-fp32  rep=3 tok/s=   58.9 ttft50=  285.1 tpot50=  60.8 act_B/tok=9120 cpu=31%
+[net] delay=5.0ms bw=20.0Mbps pipe-d1-fp32    rep=3 tok/s=   48.7 ttft50=  549.4 tpot50=  66.6 act_B/tok=9120 cpu=26%
+[net] delay=5.0ms bw=20.0Mbps pipe-d2-fp32    rep=3 tok/s=   60.2 ttft50=  332.2 tpot50=  59.5 act_B/tok=9120 cpu=29%
+Using the latest cached version of the dataset since Salesforce/wikitext couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'wikitext-2-raw-v1' at C:\Users\HP\.cache\huggingface\datasets\Salesforce___wikitext\wikitext-2-raw-v1\0.0.0\b08601e04326c79dfdd32d625aee71d232d685c3 (last modified on Fri Nov  6 03:14:05 2026).
+[conc] pipe-d2          P= 16 C=1 rep=0 tok/s=   47.5 ttft50=   36.4 tpot50=  19.7 tpot95=  24.0 batch=1.00 cpu=28%
+[conc] baseline         P= 16 C=1 rep=0 tok/s=   55.7 ttft50=   29.9 tpot50=  18.3 tpot95=  20.9 batch=1.00 cpu=32%
+[conc] pipe-d1          P= 16 C=1 rep=0 tok/s=   47.9 ttft50=   37.1 tpot50=  19.7 tpot95=  24.0 batch=1.00 cpu=32%
+[conc] pipe-auto        P= 16 C=1 rep=0 tok/s=   41.3 ttft50=   60.4 tpot50=  19.7 tpot95=  31.0 batch=1.00 cpu=28%
+[conc] baseline         P= 16 C=1 rep=1 tok/s=   52.0 ttft50=   41.8 tpot50=  19.0 tpot95=  27.4 batch=1.00 cpu=36%
+[conc] pipe-d1          P= 16 C=1 rep=1 tok/s=   47.7 ttft50=   35.4 tpot50=  19.6 tpot95=  24.0 batch=1.00 cpu=32%
+[conc] pipe-auto        P= 16 C=1 rep=1 tok/s=   47.4 ttft50=   35.8 tpot50=  19.8 tpot95=  24.1 batch=1.00 cpu=29%
+[conc] pipe-d2          P= 16 C=1 rep=1 tok/s=   48.8 ttft50=   34.9 tpot50=  19.5 tpot95=  23.8 batch=1.00 cpu=27%
+[conc] baseline         P= 16 C=1 rep=2 tok/s=   54.4 ttft50=   37.6 tpot50=  19.3 tpot95=  21.3 batch=1.00 cpu=33%
+[conc] pipe-d2          P= 16 C=1 rep=2 tok/s=   47.9 ttft50=   36.4 tpot50=  19.9 tpot95=  25.2 batch=1.00 cpu=32%
+[conc] pipe-d1          P= 16 C=1 rep=2 tok/s=   46.8 ttft50=   38.6 tpot50=  19.6 tpot95=  25.6 batch=1.00 cpu=28%
+[conc] pipe-auto        P= 16 C=1 rep=2 tok/s=   46.0 ttft50=   36.4 tpot50=  20.5 tpot95=  24.2 batch=1.00 cpu=31%
+[conc] pipe-d1          P= 16 C=1 rep=3 tok/s=   47.5 ttft50=   33.5 tpot50=  19.7 tpot95=  24.9 batch=1.00 cpu=30%
+[conc] baseline         P= 16 C=1 rep=3 tok/s=   54.1 ttft50=   40.1 tpot50=  18.1 tpot95=  21.9 batch=1.00 cpu=33%
+[conc] pipe-auto        P= 16 C=1 rep=3 tok/s=   48.4 ttft50=   36.5 tpot50=  19.3 tpot95=  23.6 batch=1.00 cpu=32%
+[conc] pipe-d2          P= 16 C=1 rep=3 tok/s=   46.9 ttft50=   35.9 tpot50=  19.5 tpot95=  25.1 batch=1.00 cpu=29%
+[conc] pipe-d2          P= 16 C=2 rep=0 tok/s=   65.2 ttft50=   49.4 tpot50=  28.6 tpot95=  37.5 batch=1.00 cpu=32%
+[conc] baseline         P= 16 C=2 rep=0 tok/s=   93.8 ttft50=   30.8 tpot50=  21.3 tpot95=  25.4 batch=2.00 cpu=34%
+[conc] pipe-auto        P= 16 C=2 rep=0 tok/s=   63.7 ttft50=   38.1 tpot50=  30.4 tpot95=  36.5 batch=1.33 cpu=32%
+[conc] pipe-d1          P= 16 C=2 rep=0 tok/s=   62.6 ttft50=   49.0 tpot50=  31.5 tpot95=  33.7 batch=2.00 cpu=28%
+[conc] pipe-auto        P= 16 C=2 rep=1 tok/s=   70.0 ttft50=   35.9 tpot50=  29.0 tpot95=  31.3 batch=1.36 cpu=30%
+[conc] pipe-d1          P= 16 C=2 rep=1 tok/s=   66.8 ttft50=   43.2 tpot50=  29.3 tpot95=  31.0 batch=2.00 cpu=26%
+[conc] pipe-d2          P= 16 C=2 rep=1 tok/s=   74.4 ttft50=   42.7 tpot50=  25.3 tpot95=  30.4 batch=1.00 cpu=38%
+[conc] baseline         P= 16 C=2 rep=1 tok/s=  106.4 ttft50=   24.9 tpot50=  17.8 tpot95=  21.6 batch=2.00 cpu=33%
+[conc] pipe-d2          P= 16 C=2 rep=2 tok/s=   76.6 ttft50=   42.7 tpot50=  25.2 tpot95=  27.3 batch=1.00 cpu=34%
+[conc] baseline         P= 16 C=2 rep=2 tok/s=  109.0 ttft50=   25.2 tpot50=  17.9 tpot95=  19.9 batch=2.00 cpu=31%
+[conc] pipe-auto        P= 16 C=2 rep=2 tok/s=   77.1 ttft50=   41.7 tpot50=  25.1 tpot95=  27.7 batch=1.00 cpu=34%
+[conc] pipe-d1          P= 16 C=2 rep=2 tok/s=   67.4 ttft50=   43.4 tpot50=  29.2 tpot95=  30.0 batch=2.00 cpu=27%
+[conc] pipe-auto        P= 16 C=2 rep=3 tok/s=   76.9 ttft50=   41.8 tpot50=  25.2 tpot95=  26.6 batch=1.00 cpu=32%
+[conc] pipe-d1          P= 16 C=2 rep=3 tok/s=   66.2 ttft50=   42.5 tpot50=  29.5 tpot95=  31.8 batch=2.00 cpu=28%
+[conc] pipe-d2          P= 16 C=2 rep=3 tok/s=   72.2 ttft50=   47.9 tpot50=  25.3 tpot95=  35.3 batch=1.00 cpu=37%
+[conc] baseline         P= 16 C=2 rep=3 tok/s=  107.6 ttft50=   37.5 tpot50=  17.5 tpot95=  20.3 batch=2.00 cpu=34%
+[conc] pipe-d1          P= 16 C=4 rep=0 tok/s=  125.3 ttft50=   66.4 tpot50=  30.5 tpot95=  32.9 batch=4.00 cpu=32%
+[conc] baseline         P= 16 C=4 rep=0 tok/s=  199.0 ttft50=   40.9 tpot50=  18.7 tpot95=  20.3 batch=4.00 cpu=34%
+[conc] pipe-d2          P= 16 C=4 rep=0 tok/s=  104.3 ttft50=   57.3 tpot50=  35.7 tpot95=  43.1 batch=2.00 cpu=38%
+[conc] pipe-auto        P= 16 C=4 rep=0 tok/s=  110.6 ttft50=   50.8 tpot50=  35.2 tpot95=  39.8 batch=2.12 cpu=32%
+[conc] baseline         P= 16 C=4 rep=1 tok/s=  197.7 ttft50=   36.1 tpot50=  19.2 tpot95=  21.1 batch=4.00 cpu=35%
+[conc] pipe-auto        P= 16 C=4 rep=1 tok/s=  122.5 ttft50=   53.8 tpot50=  30.3 tpot95=  36.0 batch=3.24 cpu=32%
+[conc] pipe-d1          P= 16 C=4 rep=1 tok/s=  118.2 ttft50=   69.3 tpot50=  30.8 tpot95=  39.3 batch=4.00 cpu=29%
+[conc] pipe-d2          P= 16 C=4 rep=1 tok/s=  110.0 ttft50=   54.7 tpot50=  35.0 tpot95=  38.9 batch=2.00 cpu=33%
+[conc] baseline         P= 16 C=4 rep=2 tok/s=  192.3 ttft50=   55.1 tpot50=  19.2 tpot95=  22.0 batch=4.00 cpu=34%
+[conc] pipe-auto        P= 16 C=4 rep=2 tok/s=  125.7 ttft50=   65.4 tpot50=  30.4 tpot95=  33.5 batch=4.00 cpu=30%
+[conc] pipe-d2          P= 16 C=4 rep=2 tok/s=  110.7 ttft50=   51.1 tpot50=  35.1 tpot95=  38.6 batch=2.00 cpu=33%
+[conc] pipe-d1          P= 16 C=4 rep=2 tok/s=  120.2 ttft50=   66.8 tpot50=  31.0 tpot95=  38.4 batch=4.00 cpu=29%
+[conc] baseline         P= 16 C=4 rep=3 tok/s=  188.7 ttft50=   38.6 tpot50=  19.5 tpot95=  26.8 batch=4.00 cpu=34%
+[conc] pipe-d1          P= 16 C=4 rep=3 tok/s=  121.4 ttft50=   68.9 tpot50=  30.3 tpot95=  35.8 batch=4.00 cpu=30%
+[conc] pipe-d2          P= 16 C=4 rep=3 tok/s=  109.4 ttft50=   51.1 tpot50=  35.4 tpot95=  39.5 batch=2.00 cpu=32%
+[conc] pipe-auto        P= 16 C=4 rep=3 tok/s=  117.7 ttft50=   70.7 tpot50=  30.9 tpot95=  40.0 batch=4.00 cpu=41%
+[conc] pipe-d1          P= 16 C=8 rep=0 tok/s=  226.6 ttft50=  108.9 tpot50=  32.7 tpot95=  35.4 batch=8.00 cpu=28%
+[conc] pipe-auto        P= 16 C=8 rep=0 tok/s=  216.9 ttft50=  115.0 tpot50=  32.5 tpot95=  40.6 batch=6.02 cpu=30%
+[conc] pipe-d2          P= 16 C=8 rep=0 tok/s=  202.5 ttft50=   82.4 tpot50=  37.3 tpot95=  42.8 batch=4.00 cpu=37%
+[conc] baseline         P= 16 C=8 rep=0 tok/s=  343.2 ttft50=   65.7 tpot50=  21.6 tpot95=  23.6 batch=8.00 cpu=34%
+[conc] pipe-auto        P= 16 C=8 rep=1 tok/s=  205.3 ttft50=  113.5 tpot50=  32.6 tpot95=  48.9 batch=6.74 cpu=33%
+[conc] pipe-d1          P= 16 C=8 rep=1 tok/s=  215.5 ttft50=  121.8 tpot50=  32.9 tpot95=  40.1 batch=8.00 cpu=31%
+[conc] pipe-d2          P= 16 C=8 rep=1 tok/s=  201.0 ttft50=   86.2 tpot50=  36.9 tpot95=  43.6 batch=4.00 cpu=36%
+[conc] baseline         P= 16 C=8 rep=1 tok/s=  321.5 ttft50=   74.6 tpot50=  22.8 tpot95=  26.6 batch=8.00 cpu=35%
+[conc] pipe-auto        P= 16 C=8 rep=2 tok/s=  218.2 ttft50=  122.6 tpot50=  32.7 tpot95=  40.8 batch=8.00 cpu=30%
+[conc] pipe-d1          P= 16 C=8 rep=2 tok/s=  226.1 ttft50=  111.4 tpot50=  32.5 tpot95=  35.3 batch=8.00 cpu=28%
+[conc] pipe-d2          P= 16 C=8 rep=2 tok/s=  202.8 ttft50=   87.3 tpot50=  36.8 tpot95=  41.4 batch=4.00 cpu=33%
+[conc] baseline         P= 16 C=8 rep=2 tok/s=  317.0 ttft50=   76.4 tpot50=  22.8 tpot95=  28.0 batch=8.00 cpu=33%
+[conc] pipe-auto        P= 16 C=8 rep=3 tok/s=  211.0 ttft50=  101.3 tpot50=  33.2 tpot95=  40.4 batch=5.75 cpu=31%
+[conc] pipe-d1          P= 16 C=8 rep=3 tok/s=  225.9 ttft50=  107.2 tpot50=  32.3 tpot95=  36.3 batch=8.00 cpu=30%
+[conc] baseline         P= 16 C=8 rep=3 tok/s=  331.8 ttft50=   72.6 tpot50=  22.3 tpot95=  25.3 batch=8.00 cpu=36%
+[conc] pipe-d2          P= 16 C=8 rep=3 tok/s=  204.9 ttft50=   86.0 tpot50=  36.5 tpot95=  40.2 batch=4.00 cpu=35%
+Using the latest cached version of the dataset since Salesforce/wikitext couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'wikitext-2-raw-v1' at C:\Users\HP\.cache\huggingface\datasets\Salesforce___wikitext\wikitext-2-raw-v1\0.0.0\b08601e04326c79dfdd32d625aee71d232d685c3 (last modified on Fri Nov  6 03:14:05 2026).
+[conc] pipe-d1          P= 64 C=1 rep=0 tok/s=   49.8 ttft50=   97.7 tpot50=  17.4 tpot95=  18.6 batch=1.00 cpu=28%
+[conc] pipe-d2          P= 64 C=1 rep=0 tok/s=   53.0 ttft50=   59.1 tpot50=  17.5 tpot95=  19.1 batch=1.00 cpu=28%
+[conc] pipe-auto        P= 64 C=1 rep=0 tok/s=   52.3 ttft50=   63.9 tpot50=  17.6 tpot95=  18.6 batch=1.00 cpu=28%
+[conc] baseline         P= 64 C=1 rep=0 tok/s=   70.0 ttft50=   48.0 tpot50=  12.9 tpot95=  15.3 batch=1.00 cpu=33%
+[conc] pipe-d2          P= 64 C=1 rep=1 tok/s=   52.8 ttft50=   61.7 tpot50=  17.3 tpot95=  19.2 batch=1.00 cpu=33%
+[conc] pipe-auto        P= 64 C=1 rep=1 tok/s=   52.5 ttft50=   59.5 tpot50=  17.6 tpot95=  18.8 batch=1.00 cpu=27%
+[conc] baseline         P= 64 C=1 rep=1 tok/s=   73.1 ttft50=   45.8 tpot50=  12.7 tpot95=  13.6 batch=1.00 cpu=32%
+[conc] pipe-d1          P= 64 C=1 rep=1 tok/s=   52.5 ttft50=   61.5 tpot50=  17.4 tpot95=  19.3 batch=1.00 cpu=31%
+[conc] pipe-d2          P= 64 C=1 rep=2 tok/s=   52.6 ttft50=   59.2 tpot50=  17.5 tpot95=  18.7 batch=1.00 cpu=28%
+[conc] pipe-d1          P= 64 C=1 rep=2 tok/s=   52.5 ttft50=   59.1 tpot50=  17.5 tpot95=  19.7 batch=1.00 cpu=28%
+[conc] pipe-auto        P= 64 C=1 rep=2 tok/s=   53.2 ttft50=   60.2 tpot50=  17.5 tpot95=  18.3 batch=1.00 cpu=28%
+[conc] baseline         P= 64 C=1 rep=2 tok/s=   71.4 ttft50=   43.3 tpot50=  12.8 tpot95=  16.4 batch=1.00 cpu=33%
+[conc] pipe-d2          P= 64 C=1 rep=3 tok/s=   52.8 ttft50=   61.3 tpot50=  17.5 tpot95=  18.6 batch=1.00 cpu=30%
+[conc] pipe-d1          P= 64 C=1 rep=3 tok/s=   51.8 ttft50=   60.9 tpot50=  17.4 tpot95=  20.7 batch=1.00 cpu=27%
+[conc] baseline         P= 64 C=1 rep=3 tok/s=   64.3 ttft50=   54.9 tpot50=  13.0 tpot95=  20.1 batch=1.00 cpu=44%
+[conc] pipe-auto        P= 64 C=1 rep=3 tok/s=   45.2 ttft50=   66.4 tpot50=  18.4 tpot95=  38.1 batch=1.00 cpu=41%
+[conc] pipe-d1          P= 64 C=2 rep=0 tok/s=   64.4 ttft50=  102.5 tpot50=  28.6 tpot95=  30.4 batch=2.00 cpu=28%
+[conc] baseline         P= 64 C=2 rep=0 tok/s=  102.8 ttft50=   60.4 tpot50=  18.1 tpot95=  19.2 batch=2.00 cpu=32%
+[conc] pipe-auto        P= 64 C=2 rep=0 tok/s=   68.8 ttft50=  100.7 tpot50=  25.3 tpot95=  32.7 batch=1.24 cpu=33%
+[conc] pipe-d2          P= 64 C=2 rep=0 tok/s=   73.4 ttft50=   82.2 tpot50=  24.5 tpot95=  28.4 batch=1.00 cpu=33%
+[conc] pipe-d1          P= 64 C=2 rep=1 tok/s=   61.9 ttft50=  119.8 tpot50=  28.7 tpot95=  31.5 batch=2.00 cpu=31%
+[conc] baseline         P= 64 C=2 rep=1 tok/s=  104.0 ttft50=   56.5 tpot50=  17.7 tpot95=  20.2 batch=2.00 cpu=32%
+[conc] pipe-auto        P= 64 C=2 rep=1 tok/s=   71.1 ttft50=   99.2 tpot50=  24.7 tpot95=  31.0 batch=1.13 cpu=31%
+[conc] pipe-d2          P= 64 C=2 rep=1 tok/s=   71.3 ttft50=   82.1 tpot50=  24.6 tpot95=  31.8 batch=1.00 cpu=33%
+[conc] pipe-auto        P= 64 C=2 rep=2 tok/s=   74.2 ttft50=   81.4 tpot50=  24.3 tpot95=  28.6 batch=1.00 cpu=32%
+[conc] baseline         P= 64 C=2 rep=2 tok/s=  104.2 ttft50=   56.8 tpot50=  17.5 tpot95=  20.9 batch=2.00 cpu=32%
+[conc] pipe-d1          P= 64 C=2 rep=2 tok/s=   62.2 ttft50=  107.1 tpot50=  29.4 tpot95=  32.0 batch=2.00 cpu=30%
+[conc] pipe-d2          P= 64 C=2 rep=2 tok/s=   71.6 ttft50=   81.7 tpot50=  25.3 tpot95=  30.0 batch=1.00 cpu=31%
+[conc] pipe-d2          P= 64 C=2 rep=3 tok/s=   67.4 ttft50=   85.3 tpot50=  26.3 tpot95=  34.0 batch=1.00 cpu=35%
+[conc] baseline         P= 64 C=2 rep=3 tok/s=   89.1 ttft50=   73.3 tpot50=  18.8 tpot95=  27.0 batch=2.00 cpu=36%
+[conc] pipe-d1          P= 64 C=2 rep=3 tok/s=   56.7 ttft50=  135.5 tpot50=  30.0 tpot95=  44.5 batch=2.00 cpu=33%
+[conc] pipe-auto        P= 64 C=2 rep=3 tok/s=   64.3 ttft50=   89.1 tpot50=  24.9 tpot95=  46.4 batch=1.00 cpu=38%
+[conc] pipe-d1          P= 64 C=4 rep=0 tok/s=  116.2 ttft50=  171.2 tpot50=  29.6 tpot95=  31.9 batch=4.00 cpu=28%
+[conc] pipe-auto        P= 64 C=4 rep=0 tok/s=  101.5 ttft50=  111.6 tpot50=  35.4 tpot95=  48.0 batch=2.59 cpu=29%
+[conc] baseline         P= 64 C=4 rep=0 tok/s=  182.9 ttft50=   98.2 tpot50=  19.0 tpot95=  21.7 batch=4.00 cpu=32%
+[conc] pipe-d2          P= 64 C=4 rep=0 tok/s=   98.4 ttft50=  133.8 tpot50=  36.2 tpot95=  39.8 batch=2.00 cpu=34%
+[conc] pipe-d2          P= 64 C=4 rep=1 tok/s=   95.7 ttft50=  132.4 tpot50=  36.2 tpot95=  50.6 batch=2.00 cpu=32%
+[conc] pipe-auto        P= 64 C=4 rep=1 tok/s=  108.5 ttft50=  188.7 tpot50=  31.7 tpot95=  33.8 batch=4.00 cpu=28%
+[conc] baseline         P= 64 C=4 rep=1 tok/s=  181.3 ttft50=   99.7 tpot50=  19.1 tpot95=  22.2 batch=4.00 cpu=33%
+[conc] pipe-d1          P= 64 C=4 rep=1 tok/s=  109.5 ttft50=  186.2 tpot50=  31.4 tpot95=  33.0 batch=4.00 cpu=27%
+[conc] pipe-d1          P= 64 C=4 rep=2 tok/s=  109.1 ttft50=  185.1 tpot50=  31.7 tpot95=  33.8 batch=4.00 cpu=26%
+[conc] pipe-d2          P= 64 C=4 rep=2 tok/s=   99.0 ttft50=  134.0 tpot50=  36.1 tpot95=  40.2 batch=2.00 cpu=31%
+[conc] baseline         P= 64 C=4 rep=2 tok/s=  144.8 ttft50=  124.8 tpot50=  19.2 tpot95=  59.7 batch=4.00 cpu=34%
+[conc] pipe-auto        P= 64 C=4 rep=2 tok/s=  108.8 ttft50=  187.4 tpot50=  31.6 tpot95=  33.7 batch=4.00 cpu=28%
+[conc] pipe-auto        P= 64 C=4 rep=3 tok/s=  102.4 ttft50=  186.8 tpot50=  33.8 tpot95=  37.9 batch=2.84 cpu=28%
+[conc] pipe-d2          P= 64 C=4 rep=3 tok/s=   98.8 ttft50=  132.4 tpot50=  36.2 tpot95=  39.4 batch=2.00 cpu=32%
+[conc] baseline         P= 64 C=4 rep=3 tok/s=  180.2 ttft50=   99.1 tpot50=  19.2 tpot95=  22.2 batch=4.00 cpu=33%
+[conc] pipe-d1          P= 64 C=4 rep=3 tok/s=  109.0 ttft50=  182.2 tpot50=  31.6 tpot95=  34.3 batch=4.00 cpu=28%
+[conc] pipe-auto        P= 64 C=8 rep=0 tok/s=  179.5 ttft50=  246.7 tpot50=  34.2 tpot95=  38.7 batch=7.03 cpu=27%
+[conc] pipe-d1          P= 64 C=8 rep=0 tok/s=  174.3 ttft50=  200.4 tpot50=  34.0 tpot95=  56.9 batch=7.79 cpu=27%
+[conc] pipe-d2          P= 64 C=8 rep=0 tok/s=  172.1 ttft50=  242.8 tpot50=  37.2 tpot95=  50.1 batch=4.00 cpu=31%
+[conc] baseline         P= 64 C=8 rep=0 tok/s=  292.4 ttft50=  101.1 tpot50=  21.5 tpot95=  24.6 batch=7.79 cpu=31%
+[conc] pipe-d1          P= 64 C=8 rep=1 tok/s=  178.5 ttft50=  187.8 tpot50=  34.0 tpot95=  41.4 batch=7.79 cpu=27%
+[conc] baseline         P= 64 C=8 rep=1 tok/s=  286.1 ttft50=  103.0 tpot50=  21.5 tpot95=  24.5 batch=7.79 cpu=34%
+[conc] pipe-auto        P= 64 C=8 rep=1 tok/s=  174.2 ttft50=  186.4 tpot50=  34.1 tpot95=  50.0 batch=6.95 cpu=28%
+[conc] pipe-d2          P= 64 C=8 rep=1 tok/s=  174.8 ttft50=  242.3 tpot50=  37.4 tpot95=  40.1 batch=4.00 cpu=31%
+[conc] baseline         P= 64 C=8 rep=2 tok/s=  293.6 ttft50=   99.3 tpot50=  21.6 tpot95=  27.0 batch=7.79 cpu=32%
+[conc] pipe-auto        P= 64 C=8 rep=2 tok/s=  178.7 ttft50=  245.4 tpot50=  35.1 tpot95=  45.1 batch=5.51 cpu=31%
+[conc] pipe-d2          P= 64 C=8 rep=2 tok/s=  173.1 ttft50=  248.3 tpot50=  36.9 tpot95=  41.6 batch=4.00 cpu=32%
+[conc] pipe-d1          P= 64 C=8 rep=2 tok/s=  177.9 ttft50=  190.7 tpot50=  33.8 tpot95=  36.7 batch=7.79 cpu=27%
+[conc] baseline         P= 64 C=8 rep=3 tok/s=  287.7 ttft50=  102.4 tpot50=  21.3 tpot95=  39.2 batch=7.79 cpu=33%
+[conc] pipe-auto        P= 64 C=8 rep=3 tok/s=  178.7 ttft50=  197.5 tpot50=  33.6 tpot95=  37.6 batch=7.79 cpu=28%
+[conc] pipe-d1          P= 64 C=8 rep=3 tok/s=  177.4 ttft50=  188.9 tpot50=  33.7 tpot95=  39.6 batch=7.79 cpu=28%
+[conc] pipe-d2          P= 64 C=8 rep=3 tok/s=  172.2 ttft50=  242.4 tpot50=  36.8 tpot95=  47.4 batch=4.00 cpu=31%
+exit 0

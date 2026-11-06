@@ -1,0 +1,75 @@
+{
+  "python": "3.11.9",
+  "os": "Windows-10-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 191 Stepping 2, GenuineIntel",
+  "logical_cpus": 20,
+  "torch": "2.14.0+cpu",
+  "transformers": "5.19.0",
+  "grpcio": "1.85.1",
+  "device": "cpu",
+  "precision": "fp32 weights / fp32 compute",
+  "placement": "pinned: baseline on base-cpus; s0/s1 on disjoint halves of the same physical P-cores; coordinator on E-cores",
+  "time_utc": "2026-11-06T01:51:08Z",
+  "ram_gb": 16.8,
+  "physical_cpus": 14,
+  "model": "Qwen/Qwen2.5-0.5B",
+  "args": {
+    "model": "Qwen/Qwen2.5-0.5B",
+    "exp": [
+      "concurrency",
+      "network"
+    ],
+    "systems": [
+      "baseline",
+      "pipe-d1",
+      "pipe-d2",
+      "pipe-auto"
+    ],
+    "concurrency": [
+      1,
+      4,
+      8
+    ],
+    "prompt_lens": [
+      64
+    ],
+    "gen": 32,
+    "per_client": 1,
+    "repeats": 3,
+    "split": 15,
+    "base_threads": 6,
+    "worker_threads": 3,
+    "base_cpus": "0,2,4,6,8,10",
+    "s0_cpus": "0,2,4",
+    "s1_cpus": "6,8,10",
+    "coord_cpus": "12,13,14,15,16,17,18,19",
+    "links": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        5.0,
+        20.0
+      ]
+    ],
+    "net_concurrency": 4,
+    "net_systems": [
+      "pipe-d1-fp32",
+      "pipe-d2-fp32",
+      "pipe-d2-int8h",
+      "pipe-auto-fp32"
+    ],
+    "rates": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "load_duration": 20,
+    "max_waiting": 16,
+    "port": 50151,
+    "out": "results/perf"
+  }
+}

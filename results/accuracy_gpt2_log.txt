@@ -1,0 +1,50 @@
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights:  21%|##        | 31/148 [00:00<00:00, 265.89it/s]Loading weights:  41%|####1     | 61/148 [00:00<00:00, 278.87it/s]Loading weights:  60%|######    | 89/148 [00:00<00:00, 236.37it/s]Loading weights: 100%|##########| 148/148 [00:00<00:00, 408.66it/s]
+Using the latest cached version of the dataset since Salesforce/wikitext couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'wikitext-2-raw-v1' at C:\Users\HP\.cache\huggingface\datasets\Salesforce___wikitext\wikitext-2-raw-v1\0.0.0\b08601e04326c79dfdd32d625aee71d232d685c3 (last modified on Fri Nov  6 03:14:05 2026).
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (287644 > 1024). Running this sequence through the model will result in indexing errors
+[gpt2] wikitext2 ppl codec=fp32: 37.4033 (hf 37.4033)  126s
+[gpt2] wikitext2 ppl codec=fp16: 37.4034 (hf 37.4033)  183s
+[gpt2] wikitext2 ppl codec=bf16: 37.4043 (hf 37.4033)  243s
+[gpt2] wikitext2 ppl codec=int8: 37.4988 (hf 37.4033)  302s
+[gpt2] wikitext2 ppl codec=int8h: 37.4079 (hf 37.4033)  357s
+[gpt2] wikitext2 ppl codec=int4h: 37.7386 (hf 37.4033)  421s
+Using the latest cached version of the dataset since EleutherAI/lambada_openai couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\HP\.cache\huggingface\datasets\EleutherAI___lambada_openai\default\0.0.0\900124bf3b8235c6daf21033af9948b3f07346c4 (last modified on Fri Nov  6 03:14:11 2026).
+Using the latest cached version of the dataset since EleutherAI/lambada_openai couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\HP\.cache\huggingface\datasets\EleutherAI___lambada_openai\default\0.0.0\900124bf3b8235c6daf21033af9948b3f07346c4 (last modified on Fri Nov  6 03:14:11 2026).
+[gpt2] lambada acc codec=fp32: 0.3170 (hf 0.3170)
+Using the latest cached version of the dataset since EleutherAI/lambada_openai couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\HP\.cache\huggingface\datasets\EleutherAI___lambada_openai\default\0.0.0\900124bf3b8235c6daf21033af9948b3f07346c4 (last modified on Fri Nov  6 03:14:11 2026).
+[gpt2] lambada acc codec=fp16: 0.3170 (hf 0.3170)
+Using the latest cached version of the dataset since EleutherAI/lambada_openai couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\HP\.cache\huggingface\datasets\EleutherAI___lambada_openai\default\0.0.0\900124bf3b8235c6daf21033af9948b3f07346c4 (last modified on Fri Nov  6 03:14:11 2026).
+[gpt2] lambada acc codec=bf16: 0.3170 (hf 0.3170)
+Using the latest cached version of the dataset since EleutherAI/lambada_openai couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\HP\.cache\huggingface\datasets\EleutherAI___lambada_openai\default\0.0.0\900124bf3b8235c6daf21033af9948b3f07346c4 (last modified on Fri Nov  6 03:14:11 2026).
+[gpt2] lambada acc codec=int8: 0.3190 (hf 0.3170)
+Using the latest cached version of the dataset since EleutherAI/lambada_openai couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\HP\.cache\huggingface\datasets\EleutherAI___lambada_openai\default\0.0.0\900124bf3b8235c6daf21033af9948b3f07346c4 (last modified on Fri Nov  6 03:14:11 2026).
+[gpt2] lambada acc codec=int8h: 0.3170 (hf 0.3170)
+Using the latest cached version of the dataset since EleutherAI/lambada_openai couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at C:\Users\HP\.cache\huggingface\datasets\EleutherAI___lambada_openai\default\0.0.0\900124bf3b8235c6daf21033af9948b3f07346c4 (last modified on Fri Nov  6 03:14:11 2026).
+[gpt2] lambada acc codec=int4h: 0.3160 (hf 0.3170)
+Using the latest cached version of the dataset since Salesforce/wikitext couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'wikitext-2-raw-v1' at C:\Users\HP\.cache\huggingface\datasets\Salesforce___wikitext\wikitext-2-raw-v1\0.0.0\b08601e04326c79dfdd32d625aee71d232d685c3 (last modified on Fri Nov  6 03:14:05 2026).
+[gpt2] greedy codec=fp32: exact=64/64 prefix=1.000
+[gpt2] greedy codec=fp16: exact=64/64 prefix=1.000
+[gpt2] greedy codec=bf16: exact=63/64 prefix=0.996
+[gpt2] greedy codec=int8: exact=32/64 prefix=0.653
+[gpt2] greedy codec=int8h: exact=54/64 prefix=0.905
+[gpt2] greedy codec=int4h: exact=19/64 prefix=0.514
+[gpt2] sweep split=1 outlier=56.9 bf16:-0.00% int8:+0.01% int8h:+0.01% int4h:+0.07%
+[gpt2] sweep split=2 outlier=257.7 bf16:+0.00% int8:+0.18% int8h:+0.01% int4h:+1.23%
+[gpt2] sweep split=3 outlier=529.5 bf16:+0.01% int8:+0.18% int8h:+0.01% int4h:+0.92%
+[gpt2] sweep split=4 outlier=526.8 bf16:-0.00% int8:+0.14% int8h:+0.00% int4h:+0.85%
+[gpt2] sweep split=5 outlier=526.1 bf16:+0.00% int8:+0.10% int8h:-0.00% int4h:+0.95%
+[gpt2] sweep split=6 outlier=518.4 bf16:+0.00% int8:+0.22% int8h:+0.03% int4h:+1.10%
+[gpt2] sweep split=7 outlier=508.1 bf16:+0.00% int8:+0.17% int8h:+0.01% int4h:+0.92%
+[gpt2] sweep split=8 outlier=483.3 bf16:-0.00% int8:+0.20% int8h:+0.01% int4h:+1.12%
+[gpt2] sweep split=9 outlier=459.4 bf16:+0.00% int8:+0.25% int8h:+0.01% int4h:+0.93%
+[gpt2] sweep split=10 outlier=413.8 bf16:+0.00% int8:+0.25% int8h:+0.00% int4h:+0.67%
+[gpt2] sweep split=11 outlier=324.7 bf16:+0.00% int8:+0.34% int8h:+0.02% int4h:+0.99%
+exit 0
